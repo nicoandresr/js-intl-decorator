@@ -1,0 +1,37 @@
+{
+  "name": "js-intl-decorator",
+  "version": "1.0.3",
+  "description": "This is a storybook addon for IntlProvider of react-intl package",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.jsx --out-file index.js --presets=@babel/preset-env,@babel/preset-react",
+    "prepublisch": "npm run build",
+    "test": "markdown-code-blocks -t javascript < README.md | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoandresr/js-intl-decorator.git"
+  },
+  "keywords": [
+    "react-intl",
+    "storybook",
+    "addon",
+    "intlDecorator"
+  ],
+  "author": "nicoandres.rodriguez@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicoandresr/js-intl-decorator/issues"
+  },
+  "homepage": "https://github.com/nicoandresr/js-intl-decorator#readme",
+  "dependencies": {
+    "react-intl": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "typescript": "^3.5.3"
+  }
+}
